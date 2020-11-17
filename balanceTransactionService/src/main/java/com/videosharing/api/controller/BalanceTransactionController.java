@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.videosharing.VideoSharingPlatformApplication;
+import com.videosharing.BalanceTransactionServiceApplication;
 import com.videosharing.api.dto.BalanceTransactionPayload;
 import com.videosharing.model.BalanceTransaction;
 import com.videosharing.service.IBalanceTransactionService;
@@ -22,7 +22,7 @@ import java.util.List;
 @RequestMapping("api/balance-transactions")
 @AllArgsConstructor
 public final class BalanceTransactionController {
-	static final Logger log = LoggerFactory.getLogger(VideoSharingPlatformApplication.class);
+	static final Logger log = LoggerFactory.getLogger(BalanceTransactionServiceApplication.class);
 	
 	@Autowired
     private IBalanceTransactionService balanceTransactionService;
