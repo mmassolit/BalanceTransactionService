@@ -11,10 +11,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.videosharing.api.dto.AdPayload;
 import com.videosharing.api.dto.UserPayload;
-import com.videosharing.model.Ad;
-import com.videosharing.model.Advertiser;
+
 import com.videosharing.model.Role;
 import com.videosharing.model.User;
 import com.videosharing.repository.UserRepository;
