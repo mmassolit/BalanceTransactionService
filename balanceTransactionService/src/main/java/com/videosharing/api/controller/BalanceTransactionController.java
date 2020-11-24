@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/balance-transactions")
+@RequestMapping("/balance-transaction")
 @AllArgsConstructor
 public final class BalanceTransactionController {
 	static final Logger log = LoggerFactory.getLogger(BalanceTransactionServiceApplication.class);
